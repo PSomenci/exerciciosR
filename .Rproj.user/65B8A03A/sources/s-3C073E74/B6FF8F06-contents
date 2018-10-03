@@ -2,7 +2,7 @@ install.packages("xlsx")
 
 library(xlsx)
 
-df <- read.xlsx("exercicio1.xls", "Plan1")
+df <- read.xlsx("exercicio1.xls", 1)
 
 media <- apply(df, 2, mean)
 
