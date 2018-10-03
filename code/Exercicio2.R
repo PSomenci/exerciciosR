@@ -15,4 +15,4 @@ amplitude
 var(ex2)
 sqrt(var(ex2))
 
-plot(sqrt(var(ex2)))
+
